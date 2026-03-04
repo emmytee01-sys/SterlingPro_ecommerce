@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9AB43AF0-3517-4C20-9E82-CB3DADF3FAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "src\ECommerce.API\ECommerce.API.csproj", "{905DEC4E-B58A-4A20-AFD3-1190283EED97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Domain", "src\ECommerce.Domain\ECommerce.Domain.csproj", "{149CC058-A7CF-4B03-B73F-F56560104824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Infrastructure", "src\ECommerce.Infrastructure\ECommerce.Infrastructure.csproj", "{1B40475F-A540-4B7B-95A6-35176F0DD2AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905DEC4E-B58A-4A20-AFD3-1190283EED97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905DEC4E-B58A-4A20-AFD3-1190283EED97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905DEC4E-B58A-4A20-AFD3-1190283EED97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905DEC4E-B58A-4A20-AFD3-1190283EED97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149CC058-A7CF-4B03-B73F-F56560104824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149CC058-A7CF-4B03-B73F-F56560104824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149CC058-A7CF-4B03-B73F-F56560104824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149CC058-A7CF-4B03-B73F-F56560104824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B40475F-A540-4B7B-95A6-35176F0DD2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B40475F-A540-4B7B-95A6-35176F0DD2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B40475F-A540-4B7B-95A6-35176F0DD2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B40475F-A540-4B7B-95A6-35176F0DD2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{905DEC4E-B58A-4A20-AFD3-1190283EED97} = {9AB43AF0-3517-4C20-9E82-CB3DADF3FAA0}
+		{149CC058-A7CF-4B03-B73F-F56560104824} = {9AB43AF0-3517-4C20-9E82-CB3DADF3FAA0}
+		{1B40475F-A540-4B7B-95A6-35176F0DD2AD} = {9AB43AF0-3517-4C20-9E82-CB3DADF3FAA0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+appsettings.Production.json
+ecommerce.db
+ecommerce.db-shm
+ecommerce.db-wal
+
+# React / Vite
+ECommerce.Web/node_modules/
+ECommerce.Web/dist/
+ECommerce.Web/dist-ssr/
+ECommerce.Web/.env.local
+ECommerce.Web/.env.development.local
+ECommerce.Web/.env.test.local
+ECommerce.Web/.env.production.local
+ECommerce.Web/npm-debug.log*
+ECommerce.Web/yarn-debug.log*
+ECommerce.Web/yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
